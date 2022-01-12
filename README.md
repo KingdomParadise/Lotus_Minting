@@ -1,1 +1,1 @@
-# Lotus_Minting
+# zakari_NFT_minting
