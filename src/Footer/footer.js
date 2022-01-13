@@ -1,8 +1,8 @@
 import React from 'react';
-import facebook from "../assets/images/icon/fb.svg";
-import discord from "../assets/images/icon/discord.svg";
-import twitter from "../assets/images/icon/twitter.svg";
-import telegram from "../assets/images/icon/telegram.svg";
+import { ImFacebook } from "react-icons/im";
+import { FaTwitter, FaTelegramPlane, FaDiscord } from "react-icons/fa";
+
+import Opensea from '../assets/images/opensea.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/style.css';
 
@@ -10,10 +10,14 @@ function FooterPart() {
     return (
         <div>
             <footer className='footer_container'>
-                <img src={discord} alt='discord' />
-                <img src={telegram} alt='telegram' />
-                <img src={twitter} alt='twitter' />
-                <img src={facebook} className='facebookicon' alt='facebook' />
+                <FaDiscord color="white" className="iconsize" />
+                <FaTelegramPlane color="white" className="iconsize" />
+                <FaTwitter color="white" className="iconsize" />
+                {/*<a className='instagram'>    
+                    <i className='fab fa-instagram iconsize'></i>
+                </a>*/}
+                <ImFacebook color="white" className="iconsize" />
+                <img src={Opensea} alt='Opensea' className="iconsize" />
             </footer>
         </div>
     )

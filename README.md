@@ -1,1 +1,1 @@
-# zakari_NFT_minting
+# NFT_minting_AVAX
